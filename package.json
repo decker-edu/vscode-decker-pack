@@ -1,0 +1,22 @@
+{
+    "name": "decker-pack",
+    "displayName": "Decker Extension Pack",
+    "description": "Extension Pack for all decker needs.",
+    "version": "0.0.1",
+    "publisher": "decker-edu",
+	"repository": {
+	  "type": "git",
+	  "url": "https://github.com/salbeira/vscode-decker-pack"
+	},
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "decker-edu.decker-server",
+        "decker-edu.decker-snippets",
+        "decker-edu.decker-init"
+    ]
+}
